@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <meta name="description"
+        content="Un petit je qui constite à deviner un nombre compris entre 0 et 1000 | Bonne chance !">
+    <title>Le juste prix</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row justify-content-center mt-5">
+            <header>
+                Le Juste Prix
+            </header>
+        </div>
+        <P class="paragraph">Un nombre entre 0 et 1000 est choisi au hasard, à vous de le deviner avec le moins de
+            tentatives possible </P>
+
+        <!-- Formulaire -->
+        <div>
+            <div class="row justify-content-center mt-5 mb-4">
+                <div class=" col-lg-8">
+                    <div class="bg-light p-5 shadow">
+
+                        <form id="formulaire">
+                            <div class="row">
+                                <div class="col">
+                                    <input id="prix" class="form-control" placeholder="Devinez le prix !" />
+                                </div>
+                                <button type="submit" class="my-btn ">Deviner</button>
+                            </div>
+                            <small class="text-danger">Vous devez rentrer un nombre.</small>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Instructions -->
+        <div class="row justify-content-center">
+            <div id="instructions" class="col-lg-8"></div>
+        </div>
+
+    </div>
+    <p class="paragraph2"> Créé par Vladimir Lavrentiev | <a class="mail-link"
+            href="mailto: ">dev@vladimir-lavrentiev.com</a>
+    </p>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

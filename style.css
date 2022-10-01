@@ -1,0 +1,89 @@
+html, body {
+    background-color: #142051;
+    min-width: 100vw !important;
+    max-width: 97vw !important;
+  }
+  
+  header {
+    color: #19CED8;
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  #instructions {
+    color: white;
+  }
+  
+  .instruction {
+    padding: 15px;
+    margin: 10px;
+  }
+  
+  .plus {
+    background-color: #f67280;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .moins {
+    background-color: #ffa372;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .fini {
+    background-color : #0c9463;
+    text-align: center;
+    padding: 15px;
+  }
+  .container {
+    margin-top: 150px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-btn{
+   
+    padding: 5px 15px;
+    background: #19CED8;
+    color: aliceblue;
+    border-color: #19CED8;
+    border-radius: 5px;
+
+  }
+  .paragraph{
+    text-align: center;
+    font-size: smaller;
+  }
+  .paragraph2{
+    text-align: center;
+    display: block;
+    align-items: baseline;
+  }
+  .mail-link{
+  color: black;
+  }
+
+  .mail-link:hover{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 550) 
+  
+  {
+    html, body {
+      min-width: 400px;
+      max-width: 99vw;
+    }
+
+    .container {
+      margin-top: 70px;
+      
+    }
+
+    .row {
+      display: block !important;
+    }
+  }
